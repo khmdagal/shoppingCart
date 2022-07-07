@@ -1,0 +1,95 @@
+    body {
+        display: grid;
+        gap: 3px;
+        grid-template-areas: "header header" "main  aside" "footer  footer";
+        grid-template-columns: 2fr 1fr;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    
+    header {
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        grid-area: header;
+        text-align: center;
+        background-color: tomato;
+        border-radius: 10px;
+    }
+    
+    main {
+        grid-area: main;
+        background-color: burlywood;
+        border-radius: 10px;
+    }
+    
+    h2 {
+        text-shadow: 5px;
+    }
+    
+    #mobile_section,
+    #watch_section,
+    #pen_section {
+        grid-area: two;
+        margin: 10px;
+        border-radius: 10px;
+        border-style:
+    }
+    
+    input,
+    label {
+        font-size: large;
+        color: black;
+        border: none;
+        width: 20%;
+    }
+    
+    #watch_photo,
+    #phone_photo,
+    #pen_photo {
+        border-radius: 50%;
+        width: 100px;
+    }
+    
+    button {
+        background-color: rgb(230, 211, 162);
+        margin: 5px;
+        outline-style: double;
+        color: black;
+        font-weight: bold;
+        border-radius: 30%;
+    }
+    
+    #shopping_list {
+        border: double;
+        line-height: 20px;
+        outline-style: dashed;
+        border-radius: 30px;
+    }
+    
+    img {
+        width: 100px;
+        border-radius: 50%;
+    }
+    
+    aside {
+        grid-area: aside;
+        background-color: rgb(203, 227, 156);
+        border-radius: 10px;
+        padding: 5px;
+    }
+    
+    #p,
+    #total {
+        font-weight: bolder;
+        font-size: x-large;
+    }
+    
+    footer {
+        grid-area: footer;
+        background-color: orange;
+        border-radius: 10px;
+        text-align: center;
+    }
+    
+    #facebook,
+    #twitter {
+        width: 10%;
+    }

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/style.css" rel="stylesheet">
+    <title>Smart Shop🏪</title>
+</head>
+
+<body>
+    <header>
+        <h1> Smart Shop 🏪</h1>
+    </header>
+
+    <main>
+        <section id="mobile_section">
+            <input id="watch_photo" type="image" src="Smart_Watch.jpg">
+            <label id="watch_name_label" for="product_watch">Item: </lable>
+            <input id="product_watch" type="text" value="Smart Watch" disabled>
+            <label id="watch_price_label" for="watch_price">Price: £</lable>
+            <input id="watch_price" type="number" value="25" disabled>
+            
+            <button id="watch_button">Select Watch</button>
+        </section>
+        
+        <section id="watch_section">
+            <input id="phone_photo" type="image" src="Smart_Phone.jpg">
+            <label for="product_mobile">Item: </lable> 
+            <input id="product_mobile" type="text" value="Smart phone" disabled>
+            <label for="mobile_price">Price: £</lable>
+            <input id="mobile_price" type="number" value="250" disabled>
+            
+            <button id="mobile_button">Select Smart Phone</button>
+        </section>
+
+        <section id="pen_section">
+            <input id="pen_photo" type="image" src="Smart_Pen.jpg">
+
+            <label for="product_pen">Item: </lable> 
+            <input id="product_pen" type="text" value="Smart Pen" disabled style="background-color:none;">
+
+            <label for="pen_price">Price: £</lable>
+            <input id="pen_price" type="number" value="20" disabled>
+            
+            <button id="pen_button">Select Smart Pen</button>
+        </section>
+    </main>
+
+    <aside>
+        <ul id="shopping_list" >
+            <h2> Shopping Cart 🛒  </h2>
+        </ul>
+        <p id="p">Total Price: £ <span id="total"> </span></p>
+
+    </aside>
+   
+    <footer id="footer">
+        Facebook <img id="facebook" src="/facebook.jpg"> Twitter<img id="twitter" src="/twitter.png">
+        <script src="/js.js"></script>
+    </footer>
+
+</body>
+
+</html>
