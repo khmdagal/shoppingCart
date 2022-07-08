@@ -1,6 +1,5 @@
     body {
         display: grid;
-       
         grid-template-areas: "header header" "main  aside" "footer  footer";
         grid-template-columns: 2fr 1fr;
         font-family: Georgia, 'Times New Roman', Times, serif;
@@ -19,18 +18,13 @@
         background-color: burlywood;
         border-radius: 10px;
     }
-    
-    h2 {
-        text-shadow: 5px;
-    }
-    
+
     #mobile_section,
     #watch_section,
     #pen_section {
         grid-area: two;
         margin: 10px;
-        border-radius: 10px;
-        border-style:
+       
     }
     
     input,
@@ -44,7 +38,7 @@
     #watch_photo,
     #phone_photo,
     #pen_photo {
-        border-radius: 50%;
+        border-radius: 40%;
         width: 100px;
     }
     
@@ -54,14 +48,14 @@
         outline-style: double;
         color: black;
         font-weight: bold;
-        border-radius: 30%;
+        border-radius: 20%;
     }
     
     #shopping_list {
         border: double;
         line-height: 20px;
         outline-style: dashed;
-        border-radius: 30px;
+       
     }
     
     img {
