@@ -1,6 +1,6 @@
     body {
         display: grid;
-        gap: 3px;
+       
         grid-template-areas: "header header" "main  aside" "footer  footer";
         grid-template-columns: 2fr 1fr;
         font-family: Georgia, 'Times New Roman', Times, serif;
